@@ -11,6 +11,7 @@ function ExpenseItem(props) {
         <div className="expense-item__description">{e.title}</div>
         <div className="expense-item__amount">{e.amount}</div>
         <Button style={{ background: "#455", color: "#fff" }}>onclick</Button>
+        <button>I am Button</button>
       </div>
     );
   });
